@@ -1,0 +1,44 @@
+body{
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; /* Ajuste a posição vertical conforme necessário */
+}
+    .navbar {
+        margin-right: 50px;
+        margin-top: 25px;
+        font-weight: bold;
+        color:#ffffff ;
+        padding: 5px;
+        font-size: 20px;
+        padding: 10px;
+        position: absolute; /* Posicionamento fixo na tela */
+        top: 0; /* Distância do topo */
+        right: 0; /* Distância da direita */
+    }
+    
+    .navbar a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-right: 20px;
+        border-bottom: 2px solid transparent; /* Borda inicialmente transparente */
+        border-top: 2px solid transparent; /* Borda inicialmente transparente */
+        transition: border-top 0.7s ease, border-bottom 0.7s ease;
+    }
+    
+    .navbar a:hover {
+        color:#e79aff;
+        border-top: 2px solid #cc60ec;
+        border-bottom: 2px solid #cc60ec;
+        padding: 3px; 
+    }
+
+h1{
+    text-align: center;
+    margin-top: 12cm;
+    font-family: PT Sans Narrow
+    ;
+    font-size: 100px;
+    color: aliceblue;
+    
+}
